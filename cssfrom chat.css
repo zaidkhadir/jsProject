@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(preview.gif);
+    background-size: cover ;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  
+}
+img{
+    width: 800px;
+    height: 400px;
+}
+#projecteur{
+    width: 500px;
+    height:400px;
+}
+.navv{
+   padding: 50px;
+   padding-block: 30px;
+}
+.navv button{
+    background: rgba(0, 212, 212, 0.897);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 20px;
+}
+.navv button:hover{
+    background:rgba(0, 255, 255, 0.527);
+    color: black;
+}
